@@ -22,3 +22,5 @@ trait ApiResponser{
         return $this->successResponse(['data' => $model ], $code);
     }
 }
+
+?>
